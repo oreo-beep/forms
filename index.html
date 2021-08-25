@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- sección de estilos -->
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/movil.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="background-section">
+        <section class="section-body">
+            <form class="formulario-login" id="inputFormulario"> 
+                <h2 class="formulario-login__titulo">
+                    ¡Hola! <br> <span>Ingresa tus datos</span>
+                </h2>
+                <div class="formulario-login__caja-nombres">
+                    <label for="primerNombre">
+                        Primer nombre
+                        <input 
+                        type="text"  
+                        class="input-nombres" 
+                        name="primerNombre" 
+                        placeholder="Sara"
+                        id="inputNombre1">
+                    </label>
+                    <label for="segundoNombre">
+                        Segundo nombre
+                     <input 
+                     type="text" 
+                     class="input-nombres" 
+                     name="segundoNombre"  
+                     placeholder="María"
+                     id="inputNombre2">
+                     </label>
+                </div>
+                <label for="apellidos">
+                    Apellidos
+                    <input 
+                    type="text"
+                    name="apellidos" 
+                    placeholder="Guzmán Aguilar"
+                    id="inputApellidos">
+                </label>
+                <label for="correo">
+                    Correo
+                    <input 
+                    type="text"
+                    name="correo" 
+                    placeholder="saraguzman00@gmail.com"
+                    id="inputCorreo">
+                </label>
+                <label for="contraseña">
+                    Contraseña
+                    <input 
+                    type="text"
+                    name="contraseña" 
+                    placeholder="12345pink"
+                    id="inputContrasenna">
+                </label>
+                <label for="confirmarContraseña">
+                    Confirmar Contraseña
+                    <input 
+                    type="text"
+                    name="confirmarContraseña" 
+                    placeholder="12345pink"
+                    id="inputConfirmarContrasenna">
+                </label>
+                <button >¡Listo!</button>
+                <div class="formulario-login__CajaRespuesta">
+                    <label for="" class="inputRespuesta" id="inputRespuesta"></label>
+                </div>
+                <div class="formulario-login__CajaRespuesta2">
+                    <label for="" class="inputRespuesta2" id="inputRespuesta2"></label>
+                </div>
+            </form>
+        </section>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
